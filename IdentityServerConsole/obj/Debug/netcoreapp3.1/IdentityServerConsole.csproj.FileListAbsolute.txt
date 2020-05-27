@@ -1,0 +1,16 @@
+D:\Project\IdentityServerCenter\IdentityServerConsole\bin\Debug\netcoreapp3.1\IdentityServerConsole.exe
+D:\Project\IdentityServerCenter\IdentityServerConsole\obj\Debug\netcoreapp3.1\IdentityServerConsole.AssemblyInfoInputs.cache
+D:\Project\IdentityServerCenter\IdentityServerConsole\obj\Debug\netcoreapp3.1\IdentityServerConsole.AssemblyInfo.cs
+D:\Project\IdentityServerCenter\IdentityServerConsole\obj\Debug\netcoreapp3.1\IdentityServerConsole.csproj.CoreCompileInputs.cache
+D:\Project\IdentityServerCenter\IdentityServerConsole\bin\Debug\netcoreapp3.1\IdentityServerConsole.deps.json
+D:\Project\IdentityServerCenter\IdentityServerConsole\bin\Debug\netcoreapp3.1\IdentityServerConsole.runtimeconfig.json
+D:\Project\IdentityServerCenter\IdentityServerConsole\bin\Debug\netcoreapp3.1\IdentityServerConsole.runtimeconfig.dev.json
+D:\Project\IdentityServerCenter\IdentityServerConsole\bin\Debug\netcoreapp3.1\IdentityServerConsole.dll
+D:\Project\IdentityServerCenter\IdentityServerConsole\bin\Debug\netcoreapp3.1\IdentityServerConsole.pdb
+D:\Project\IdentityServerCenter\IdentityServerConsole\bin\Debug\netcoreapp3.1\IdentityModel.dll
+D:\Project\IdentityServerCenter\IdentityServerConsole\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Project\IdentityServerCenter\IdentityServerConsole\obj\Debug\netcoreapp3.1\IdentityServerConsole.csproj.CopyComplete
+D:\Project\IdentityServerCenter\IdentityServerConsole\obj\Debug\netcoreapp3.1\IdentityServerConsole.dll
+D:\Project\IdentityServerCenter\IdentityServerConsole\obj\Debug\netcoreapp3.1\IdentityServerConsole.pdb
+D:\Project\IdentityServerCenter\IdentityServerConsole\obj\Debug\netcoreapp3.1\IdentityServerConsole.genruntimeconfig.cache
+D:\Project\IdentityServerCenter\IdentityServerConsole\obj\Debug\netcoreapp3.1\IdentityServerConsole.csprojAssemblyReference.cache

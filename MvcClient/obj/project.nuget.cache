@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "QUq1FjI1a8MRtY8BvuJTkp1LFqnC0gOjn5Z/BdlMHSGsfuWWQIbIyYwoX0tKpbxVj9UjMZ2yqX0Av4K6U7qJpA==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\MvcClient\\MvcClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\op058161\\.nuget\\packages\\identitymodel\\5.0.0-preview.0\\identitymodel.5.0.0-preview.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\identityserver4\\4.0.0-preview.5\\identityserver4.4.0.0-preview.5.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\identityserver4.storage\\4.0.0-preview.5\\identityserver4.storage.4.0.0-preview.5.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.0\\microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.6.0\\microsoft.identitymodel.jsonwebtokens.6.6.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\microsoft.identitymodel.logging\\6.6.0\\microsoft.identitymodel.logging.6.6.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.6.0\\microsoft.identitymodel.protocols.5.6.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.6.0\\microsoft.identitymodel.protocols.openidconnect.5.6.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.6.0\\microsoft.identitymodel.tokens.6.6.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.6.0\\system.identitymodel.tokens.jwt.6.6.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
+    "C:\\Users\\op058161\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

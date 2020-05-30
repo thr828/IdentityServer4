@@ -69,19 +69,27 @@ namespace Idp
                 // MVC client using code flow + pkce
                 new Client
                 {
-                    ClientId = "mvc",
-                    ClientName = "MVC Client",
+                    ClientId = "mvc client",
+                    ClientName = "mvc client",
 
                     AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
                     RequirePkce = true,
-                    ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
+                    ClientSecrets = { new Secret("mvc secret".Sha256()) },
 
-                    RedirectUris = { "http://localhost:5003/signin-oidc" },
-                    FrontChannelLogoutUri = "http://localhost:5003/signout-oidc",
-                    PostLogoutRedirectUris = { "http://localhost:5003/signout-callback-oidc" },
+                    RedirectUris = { "http://localhost:5010/signin-oidc" },
+                    FrontChannelLogoutUri = "http://localhost:5010/signout-oidc",
+                    PostLogoutRedirectUris = { "http://localhost:5010/signout-callback-oidc" },
 
-                    AllowOfflineAccess = true,
-                    AllowedScopes = { "openid", "profile", "api1" }
+                    AllowOfflineAccess = true,//允许RefreshToken
+                    AllowedScopes =
+                    {
+                        "api1",
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Address,
+                        IdentityServerConstants.StandardScopes.Email,
+                        IdentityServerConstants.StandardScopes.Phone,
+                    }
                 },
 
                 // SPA client using code flow + pkce

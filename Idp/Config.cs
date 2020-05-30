@@ -4,6 +4,7 @@
 
 using IdentityServer4.Models;
 using System.Collections.Generic;
+using IdentityServer4;
 
 namespace Idp
 {
@@ -14,6 +15,10 @@ namespace Idp
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
+                new IdentityResources.Address(), 
+                new IdentityResources.Email(),
+                new IdentityResources.Phone(), 
+                
             };
 
 
@@ -38,6 +43,28 @@ namespace Idp
 
                     AllowedScopes = { "api1" }
                 },
+                #region Password 密码验证
+                new Client()
+                {
+                    ClientId = "pwdClient",
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+                    ClientSecrets =
+                    {
+                        new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) 
+                    },
+                    AllowedScopes =
+                    {
+                        "api1", 
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Address,
+                        IdentityServerConstants.StandardScopes.Email,
+                        IdentityServerConstants.StandardScopes.Phone,
+
+                    }
+
+                },
+                #endregion
 
                 // MVC client using code flow + pkce
                 new Client

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\IdentityServerCenter\\IdentityServerCenter\\IdentityServerCenter.csproj": {}
+    "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerCenter\\IdentityServerCenter.csproj": {}
   },
   "projects": {
-    "D:\\Project\\IdentityServerCenter\\IdentityServerCenter\\IdentityServerCenter.csproj": {
+    "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerCenter\\IdentityServerCenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\IdentityServerCenter\\IdentityServerCenter\\IdentityServerCenter.csproj",
+        "projectUniqueName": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerCenter\\IdentityServerCenter.csproj",
         "projectName": "IdentityServerCenter",
-        "projectPath": "D:\\Project\\IdentityServerCenter\\IdentityServerCenter\\IdentityServerCenter.csproj",
+        "projectPath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerCenter\\IdentityServerCenter.csproj",
         "packagesPath": "C:\\Users\\op058161\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\IdentityServerCenter\\IdentityServerCenter\\obj\\",
+        "outputPath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerCenter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

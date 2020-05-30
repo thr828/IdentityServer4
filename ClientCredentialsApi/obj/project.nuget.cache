@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6ZatRGn92FEhyzj+MqSppixJOHOKLBDYMhsSCCG9Hz0xL94FixdH4tTgeyNWDicR2bjyb+wMKDXFpN5P1Rlufw==",
+  "dgSpecHash": "YU5lmjcioYzwZIcdswZcjfJug8avd5YDnUjrpdiKIo8x7lnJ9Liyz44l/tqxbMxVFTLugfN/39z6DeGNuNHmRA==",
   "success": true,
-  "projectFilePath": "D:\\Project\\IdentityServerCenter\\ClientCredentialsApi\\ClientCredentialsApi.csproj",
+  "projectFilePath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\ClientCredentialsApi\\ClientCredentialsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\op058161\\.nuget\\packages\\identitymodel\\4.0.0\\identitymodel.4.0.0.nupkg.sha512",
     "C:\\Users\\op058161\\.nuget\\packages\\identitymodel.aspnetcore.oauth2introspection\\4.0.1\\identitymodel.aspnetcore.oauth2introspection.4.0.1.nupkg.sha512",

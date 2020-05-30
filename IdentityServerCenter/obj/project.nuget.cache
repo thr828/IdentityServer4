@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0SLbCGmjnv8MrH3L8qvjUYqh6tRjX9IsHPYfsmBwaA10zCuZPG/cWX0+L1fWu0q3CXs2V8toBQ0jk2nR+ssg9Q==",
+  "dgSpecHash": "avHb3oW1L5XtayPtt4b1n0GqfROfVQrmPL3eznIH78fiX76BpILuOBQhQvW9diXorF1iucTDxkuu+N/vMFBISg==",
   "success": true,
-  "projectFilePath": "D:\\Project\\IdentityServerCenter\\IdentityServerCenter\\IdentityServerCenter.csproj",
+  "projectFilePath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerCenter\\IdentityServerCenter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\op058161\\.nuget\\packages\\identitymodel\\4.1.1\\identitymodel.4.1.1.nupkg.sha512",
     "C:\\Users\\op058161\\.nuget\\packages\\identityserver4\\3.1.3\\identityserver4.3.1.3.nupkg.sha512",

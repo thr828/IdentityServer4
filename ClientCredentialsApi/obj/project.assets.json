@@ -6393,11 +6393,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\IdentityServerCenter\\ClientCredentialsApi\\ClientCredentialsApi.csproj",
+      "projectUniqueName": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\ClientCredentialsApi\\ClientCredentialsApi.csproj",
       "projectName": "ClientCredentialsApi",
-      "projectPath": "D:\\Project\\IdentityServerCenter\\ClientCredentialsApi\\ClientCredentialsApi.csproj",
+      "projectPath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\ClientCredentialsApi\\ClientCredentialsApi.csproj",
       "packagesPath": "C:\\Users\\op058161\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\IdentityServerCenter\\ClientCredentialsApi\\obj\\",
+      "outputPath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\ClientCredentialsApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

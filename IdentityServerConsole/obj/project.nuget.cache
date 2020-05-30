@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LGNj+FonSWfVZJHsoEWzn7k+gyb2DgGwYdgoVvUkjuK9bImIylpsF1B2SCco1OyOTswuRRZ8PFZaimwFbFXsfQ==",
+  "dgSpecHash": "DLCmw3pQsfHsISnnJm4LZfQ/3yFBTM+0PUwVYI4rHq/Fi+TQWPdrEKUVnmZpvwWtp1yO6eRunZDbS+h1dvOR0w==",
   "success": true,
-  "projectFilePath": "D:\\Project\\IdentityServerCenter\\IdentityServerConsole\\IdentityServerConsole.csproj",
+  "projectFilePath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerConsole\\IdentityServerConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\op058161\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",
     "C:\\Users\\op058161\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",

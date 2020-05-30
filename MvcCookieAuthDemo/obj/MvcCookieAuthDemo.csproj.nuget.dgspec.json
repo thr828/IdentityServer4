@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\IdentityServerCenter\\MvcCookieAuthDemo\\MvcCookieAuthDemo.csproj": {}
+    "D:\\Project\\IdentityServerCenter\\IdentityServer4\\MvcCookieAuthDemo\\MvcCookieAuthDemo.csproj": {}
   },
   "projects": {
-    "D:\\Project\\IdentityServerCenter\\MvcCookieAuthDemo\\MvcCookieAuthDemo.csproj": {
+    "D:\\Project\\IdentityServerCenter\\IdentityServer4\\MvcCookieAuthDemo\\MvcCookieAuthDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\IdentityServerCenter\\MvcCookieAuthDemo\\MvcCookieAuthDemo.csproj",
+        "projectUniqueName": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\MvcCookieAuthDemo\\MvcCookieAuthDemo.csproj",
         "projectName": "MvcCookieAuthDemo",
-        "projectPath": "D:\\Project\\IdentityServerCenter\\MvcCookieAuthDemo\\MvcCookieAuthDemo.csproj",
+        "projectPath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\MvcCookieAuthDemo\\MvcCookieAuthDemo.csproj",
         "packagesPath": "C:\\Users\\op058161\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\IdentityServerCenter\\MvcCookieAuthDemo\\obj\\",
+        "outputPath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\MvcCookieAuthDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [

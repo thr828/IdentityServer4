@@ -122,11 +122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\IdentityServerCenter\\IdentityServerConsole\\IdentityServerConsole.csproj",
+      "projectUniqueName": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerConsole\\IdentityServerConsole.csproj",
       "projectName": "IdentityServerConsole",
-      "projectPath": "D:\\Project\\IdentityServerCenter\\IdentityServerConsole\\IdentityServerConsole.csproj",
+      "projectPath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerConsole\\IdentityServerConsole.csproj",
       "packagesPath": "C:\\Users\\op058161\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\IdentityServerCenter\\IdentityServerConsole\\obj\\",
+      "outputPath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\IdentityServerConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

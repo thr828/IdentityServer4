@@ -41,8 +41,9 @@ namespace ClientCredentialsApi
             services.AddAuthentication("Bearer")
                 .AddIdentityServerAuthentication(
                     options =>
-                    {
-                        options.Authority = "http://localhost:5000"; //权限验证url
+                    { 
+                        //options.Authority = "http://localhost:5000"; //权限验证url
+                        options.Authority = "http://localhost:5009"; //权限验证url
                         options.RequireHttpsMetadata = false;//是否开启https
                         options.ApiName = "api";
                     });

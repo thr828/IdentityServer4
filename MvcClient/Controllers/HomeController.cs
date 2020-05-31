@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
+using IdentityModel.Client;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
@@ -26,7 +28,28 @@ namespace MvcClient.Controllers
 
         public IActionResult Index()
         {
+            // var client=new HttpClient();
+            // var disco =await client.GetDiscoveryDocumentAsync("http://localhost:5009");
+            // if (disco.IsError)
+            // {
+            //     throw new Exception(disco.Error);
+            //     throw new Exception(disco.Error);
+            // }
+            //
+            // var accessToken =await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
+            // client.SetBearerToken(accessToken);
+            // var response =await client.GetAsync("http://localhost:5002/identity");
+            // if (!response.IsSuccessStatusCode)
+            // {
+            //    throw new Exception(response.ReasonPhrase);
+            // }
+            // else
+            // {
+            //     var content = await response.Content.ReadAsStringAsync();
+            //     return View("Index", content);
+            // }
             return View();
+
         }
         [Authorize]
         public async Task<IActionResult> Privacy()

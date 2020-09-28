@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 
 namespace ClientCredentialsApi.Controllers
 {
-    [Authorize]
+  
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -26,16 +26,18 @@ namespace ClientCredentialsApi.Controllers
         }
         //[Authorize]
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public string Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+            // var rng = new Random();
+            // return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            // {
+            //     Date = DateTime.Now.AddDays(index),
+            //     TemperatureC = rng.Next(-20, 55),
+            //     Summary = Summaries[rng.Next(Summaries.Length)]
+            // })
+            // .ToArray();
+            Response.Redirect("http://mrm.opple.com/Default.aspx");
+            return "true";
         }
     }
 }

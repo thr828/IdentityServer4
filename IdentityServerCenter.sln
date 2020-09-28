@@ -9,11 +9,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientCredentialsApi", "Cli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerConsole", "IdentityServerConsole\IdentityServerConsole.csproj", "{01F519AC-3D2A-4C9A-839A-3CBED9DD07D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordCredentialConsole", "PasswordCredentialConsole\PasswordCredentialConsole.csproj", "{36F41F3D-C80B-44A5-8953-C1B751028F72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordCredentialConsole", "PasswordCredentialConsole\PasswordCredentialConsole.csproj", "{36F41F3D-C80B-44A5-8953-C1B751028F72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Idp", "Idp\Idp.csproj", "{90AF67B8-FA1A-4B2A-86FC-5E18839B0303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Idp", "Idp\Idp.csproj", "{90AF67B8-FA1A-4B2A-86FC-5E18839B0303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient", "MvcClient\MvcClient.csproj", "{A1C56BB0-7636-48D5-9401-A34C095C687E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "MvcClient\MvcClient.csproj", "{A1C56BB0-7636-48D5-9401-A34C095C687E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServerNew", "IdentityServerNew", "{962569E0-9284-4921-A9D2-0FD12749ACE0}"
+	ProjectSection(SolutionItems) = preProject
+		cankao.txt = cankao.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerCenter", "IdentityServerNew\IdentityServerCenter\IdentityServerCenter.csproj", "{8E7B581A-CB9E-43DA-B995-5CEC649A1A3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api1Resource", "Api1Resource", "{3EF47A43-C74C-4418-AE44-95C0A9514603}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API1Resource", "IdentityServerNew\Api1Resource\API1Resource\API1Resource.csproj", "{87791716-2EF8-426C-820B-14F0DF22DC77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +56,22 @@ Global
 		{A1C56BB0-7636-48D5-9401-A34C095C687E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1C56BB0-7636-48D5-9401-A34C095C687E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1C56BB0-7636-48D5-9401-A34C095C687E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7B581A-CB9E-43DA-B995-5CEC649A1A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7B581A-CB9E-43DA-B995-5CEC649A1A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7B581A-CB9E-43DA-B995-5CEC649A1A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7B581A-CB9E-43DA-B995-5CEC649A1A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87791716-2EF8-426C-820B-14F0DF22DC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87791716-2EF8-426C-820B-14F0DF22DC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87791716-2EF8-426C-820B-14F0DF22DC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87791716-2EF8-426C-820B-14F0DF22DC77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E7B581A-CB9E-43DA-B995-5CEC649A1A3C} = {962569E0-9284-4921-A9D2-0FD12749ACE0}
+		{3EF47A43-C74C-4418-AE44-95C0A9514603} = {962569E0-9284-4921-A9D2-0FD12749ACE0}
+		{87791716-2EF8-426C-820B-14F0DF22DC77} = {3EF47A43-C74C-4418-AE44-95C0A9514603}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01B3D9EB-03D2-4519-A705-F78C5393FDBA}

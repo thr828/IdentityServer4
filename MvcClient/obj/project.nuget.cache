@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QUq1FjI1a8MRtY8BvuJTkp1LFqnC0gOjn5Z/BdlMHSGsfuWWQIbIyYwoX0tKpbxVj9UjMZ2yqX0Av4K6U7qJpA==",
+  "dgSpecHash": "bocbRgVA6btVlN67BPexDeeZltj1sQ0AGVmFeKTl7ORZS+gJtV+NUP7JKCFHSPhyl5DiLsugvq+17BSfiLp+5Q==",
   "success": true,
   "projectFilePath": "D:\\Project\\IdentityServerCenter\\IdentityServer4\\MvcClient\\MvcClient.csproj",
   "expectedPackageFiles": [

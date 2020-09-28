@@ -144,3 +144,17 @@ http://www.jessetalk.cn/
 参考github：https://github.com/solenovex/Identity-Server-4-Tutorial-Demo-Code
 
 ​					 https://www.bilibili.com/video/BV16b411k7yM?p=1
+
+
+
+# Redis、Memcached、Kafka、RabbitMQ
+
+## 1.RabbitMQ
+
+
+
+
+
+
+
+# Vue、Angular、EasyUi

@@ -43,8 +43,8 @@ namespace IdentityServerConsole
             }
             else
             {
-                var content = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(JArray.Parse(content));
+                // var content = await response.Content.ReadAsStringAsync();
+                // Console.WriteLine(JArray.Parse(content));
             }
 
         }
